@@ -713,7 +713,7 @@ margin-top: 300px; /* MOVE DOWN */
 .experience-card {
   max-width: 600px;
   margin: 0 auto;/* CENTER the card */
-  background: #f1f5f9;
+   background: var(--bg-surface);
   
   border-radius: 10px;
   padding: 30px;
@@ -778,7 +778,7 @@ margin-top: 300px; /* MOVE DOWN */
   border-radius: 20px;
   text-decoration: none;
   transition: 0.3s;
-  background: #f2f2f2;   /* Light gray */
+  background: var(--bg-surface);   /* Light gray */
 
 }
 
@@ -808,8 +808,8 @@ margin-top: 300px; /* MOVE DOWN */
 }
 
 .project-card {
-    background: rgba(255,255,255,0.7);
-    backdrop-filter: blur(10px);
+    background: var(--bg-surface);
+}
     
 }
 }
@@ -1032,7 +1032,7 @@ margin-top: 300px; /* MOVE DOWN */
 .experience-title,
 .projects-title {
   text-align: center;
-  color: #222;        /* same as Certifications */
+   color: var(--text-main);        /* same as Certifications */
   font-size: 32px;
   font-weight: 600;
   margin-bottom: 40px;
